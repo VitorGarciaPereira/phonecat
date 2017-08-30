@@ -18,14 +18,14 @@ module.exports = function(config) {
 
     autoWatch: true,
 
+    singleRun: true,
+
     frameworks: ['jasmine'],
 
     browsers: ['PhantomJS'],
 
     plugins: [
       'karma-phantomjs-launcher',
-      'karma-remap-istanbul',
-      'angular-cli/plugins/karma',
       'karma-jasmine'
     ]
 
