@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nvm install 6.10.3
+nvm install 6.10.3 <<EOF
 nvm use 6.10.3
 apt-get install npm
 npm install bower -g
@@ -9,3 +9,4 @@ npm install
 bower install --allow-root
 exit
 exit
+EOF
