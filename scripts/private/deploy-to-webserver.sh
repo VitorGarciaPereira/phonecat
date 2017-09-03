@@ -22,6 +22,7 @@ apt-get install npm
 npm install bower -g
 [ -d phonecat ] && cd phonecat && git pull || git clone https://github.com/VitorGarciaPereira/phonecat.git && cd phonecat
 npm install --production
+bower install --allow-root
 exit
 exit
 EOF
