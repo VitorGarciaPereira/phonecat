@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ssh ubuntu@54.194.13.84 <<EOF
+ssh ubuntu@10.0.1.122 <<EOF
 sudo su
 apt-get update
 apt-get install build-essential libssl-dev
@@ -13,7 +13,7 @@ source ~/.profile
 exit
 exit
 EOF
-ssh ubuntu@54.194.13.84 <<EOF
+ssh ubuntu@10.0.1.122 <<EOF
 sudo su
 cd /var/www/html
 nvm install 6.10.3
